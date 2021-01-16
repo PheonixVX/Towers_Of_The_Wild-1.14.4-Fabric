@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.ender.towersofthewild.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "LocateCommandMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

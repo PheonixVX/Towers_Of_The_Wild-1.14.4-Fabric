@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "towers-of-the-wild",
+  "version": "${version}",
+  "name": "Towers Of The Wild",
+  "description": "",
+  "authors": [
+    "Ender"
+  ],
+  "contact": {},
+  "license": "CCA NS-BY",
+  "icon": "assets/towers_of_the_wild/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.ender.towersofthewild.TowersOfTheWild"
+    ]
+  },
+  "mixins": [
+    "towers-of-the-wild.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.0",
+    "fabric": "*",
+    "minecraft": "1.14.4"
+  }
+}
